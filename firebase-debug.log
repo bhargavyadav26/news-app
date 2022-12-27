@@ -1,0 +1,74 @@
+[debug] [2022-12-27T17:26:15.943Z] ----------------------------------------------------------------------
+[debug] [2022-12-27T17:26:15.944Z] Command:       D:\Softwares\Node\node.exe C:\Users\Bhargav\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-12-27T17:26:15.945Z] CLI Version:   11.19.0
+[debug] [2022-12-27T17:26:15.945Z] Platform:      win32
+[debug] [2022-12-27T17:26:15.945Z] Node Version:  v16.14.2
+[debug] [2022-12-27T17:26:15.946Z] Time:          Tue Dec 27 2022 12:26:15 GMT-0500 (Eastern Standard Time)
+[debug] [2022-12-27T17:26:15.947Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-27T17:26:15.954Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-27T17:26:15.955Z] > authorizing via signed-in user (bhargavyadav26@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\my-projects\news-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-12-27T17:26:29.357Z] > refreshing access token with scopes: []
+[debug] [2022-12-27T17:26:29.359Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-12-27T17:26:29.360Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-27T17:26:29.544Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2022-12-27T17:26:29.544Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-27T17:26:29.545Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-12-27T17:26:29.687Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 401
+[debug] [2022-12-27T17:26:29.688Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2022-12-27T17:26:29.688Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2022-12-27T17:26:29.778Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\Bhargav\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Bhargav\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2022-12-27T17:28:57.076Z] ----------------------------------------------------------------------
+[debug] [2022-12-27T17:28:57.077Z] Command:       D:\Softwares\Node\node.exe C:\Users\Bhargav\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-12-27T17:28:57.078Z] CLI Version:   11.19.0
+[debug] [2022-12-27T17:28:57.078Z] Platform:      win32
+[debug] [2022-12-27T17:28:57.078Z] Node Version:  v16.14.2
+[debug] [2022-12-27T17:28:57.079Z] Time:          Tue Dec 27 2022 12:28:57 GMT-0500 (Eastern Standard Time)
+[debug] [2022-12-27T17:28:57.079Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-27T17:28:57.087Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-27T17:28:57.088Z] > authorizing via signed-in user (bhargavyadav26@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\my-projects\news-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-12-27T17:28:59.676Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-12-27T17:29:00.045Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-12-27T17:29:00.045Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
