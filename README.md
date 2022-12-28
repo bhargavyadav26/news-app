@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+This work only on localhost as the apis are purely for dev purpose i.e., localhost only
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
