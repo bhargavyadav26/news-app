@@ -1,6 +1,7 @@
 {
   "projects": {
-    "news": "project-news-187ac"
+    "news": "project-news-187ac",
+    "default": "project-news-187ac"
   },
   "targets": {},
   "etags": {}
