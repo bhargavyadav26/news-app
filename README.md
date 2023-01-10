@@ -1,6 +1,10 @@
 # Getting Started with Create React App
-
+-------------------------------------------------------------------------------------------------------------------
 This work only on localhost as the apis are purely for dev purpose i.e., localhost only
+
+to deploy, cmd: firebase deploy
+url: https://project-news-187ac.web.app
+-------------------------------------------------------------------------------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
