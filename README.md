@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 -------------------------------------------------------------------------------------------------------------------
-This work only on localhost as the apis are purely for dev purpose i.e., localhost only
+<h2><b>This work only on localhost as the apis are purely for dev purpose i.e., localhost only</b></h2>
 
 to deploy, cmd: firebase deploy
 url: https://project-news-187ac.web.app
